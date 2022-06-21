@@ -11,32 +11,31 @@ We use information distillation for multi-scale high-frequency signal enhancemen
 * Ubuntu 20.04 <br>
 
 ## Datasets
-Baidu network disk：https://pan.baidu.com/s/1p2hlvfoi4FXi74Ar2qPfhA 
-Extraction code：CcSs  
-Note: the data contains paired training sets and pre-trained models
+We use DIV2K[Retinex](https://data.vision.ee.ethz.ch/cvl/DIV2K) datasets for model training and validation
 
 ## Training
 The downloaded training data is placed in the following file  
->data
->>images  
->>labels
+>datasets
+>>trainData  
 
     python ./train.py
 
 
 ## Testing
 The pre-trained models are placed in the following file
->results  
+>pretrained_model  
+>>Super_Resolution
+>>>models
+>>>>MMAFNet
 
 The testing data is placed in the following file  
->data
->>test
->>>images  
+>datasets
+>>testData
 
     python ./test.py  
 
 * Test Results  
-![image](https://github.com/ChengChen-ai/Sky-Segmentation/blob/main/data/MAG/test_1.jpg)  
-![image](https://github.com/ChengChen-ai/Sky-Segmentation/blob/main/data/MAG/test_2.jpg)
+![image](https://github.com/ChengChen-ai/Multiscale-high-frequency-signal-enhancement-super-resolution/blob/main/datasets/testData/0915.png)  
+![image](https://github.com/ChengChen-ai/Multiscale-high-frequency-signal-enhancement-super-resolution/blob/main/results/test/0915.png)
 ## Acknowledgments
-Code is inspired by [Retinex](https://github.com/weichen582/RetinexNet) and [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix).
+Code is inspired by [Retinex](https://github.com/Zheng222/IMDN) and [CycleGAN](https://data.vision.ee.ethz.ch/cvl/DIV2K).
