@@ -11,7 +11,7 @@ We use information distillation for multi-scale high-frequency signal enhancemen
 * Ubuntu 20.04 <br>
 
 ## Datasets
-We use DIV2K[Retinex](https://data.vision.ee.ethz.ch/cvl/DIV2K) datasets for model training and validation
+We use [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K) datasets for model training and validation
 
 ## Training
 The downloaded training data is placed in the following file  
@@ -38,4 +38,4 @@ The testing data is placed in the following file
 ![image](https://github.com/ChengChen-ai/Multiscale-high-frequency-signal-enhancement-super-resolution/blob/main/datasets/testData/0915.png)  
 ![image](https://github.com/ChengChen-ai/Multiscale-high-frequency-signal-enhancement-super-resolution/blob/main/results/test/0915.png)
 ## Acknowledgments
-Code is inspired by [Retinex](https://github.com/Zheng222/IMDN) and [CycleGAN](https://data.vision.ee.ethz.ch/cvl/DIV2K).
+Code is inspired by [IMDN](https://github.com/Zheng222/IMDN) and [DIV2K](https://data.vision.ee.ethz.ch/cvl/DIV2K).
