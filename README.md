@@ -1,7 +1,7 @@
 # Multiscale-high-frequency-signal-enhancement-super-resolution
 We use information distillation for multi-scale high-frequency signal enhancement to achieve real-time image super-resolution.
 * Multi-scale High-Frequency Signal Enhancement Super-Resolution model structure diagram<br>
-![image]([https://github.com/ChengChen-ai/Sky-Segmentation/blob/main/data/MAG/%E5%9B%BE%E7%89%871.png](https://github.com/ChengChen-ai/Multiscale-high-frequency-signal-enhancement-super-resolution/blob/main/images/%E8%B6%85%E5%88%86%E8%BE%A8%E7%8E%87.png))  
+![image](https://github.com/ChengChen-ai/Multiscale-high-frequency-signal-enhancement-super-resolution/tree/main/images/超分辨率.png)
 
 
 ## Environment
